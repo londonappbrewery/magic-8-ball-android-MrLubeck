@@ -23,14 +23,15 @@
             android:id="@+id/titleText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textStyle="bold"
             android:layout_centerHorizontal="true"
             android:layout_centerInParent="false"
-            android:background="?android:attr/tooltipBackgroundColor"
+            android:background="@android:color/background_light"
             android:paddingVertical="10dp"
             android:text="@string/title_Text"
-            android:textColor="@android:color/background_light"
+            android:textColor="@android:color/black"
             android:textSize="24sp" />
+
     </RelativeLayout>
 
     <LinearLayout
